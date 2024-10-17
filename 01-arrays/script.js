@@ -46,7 +46,7 @@ console.log("Indice di Lewis in [teachers] ==> " + lewisIndex);
 
 // 9. Unisci tutti gli insegnanti nell'array teachers in una stringa
 // separata da virgole e salvala nella variabile teachersString
-const teachersString = teachers + ".";
+const teachersString = teachers.join();
 console.log("Tutti gli elementi separati a una virgola in una stringa ==> " + teachersString)
 
 // 10. Verifica se l'array teachers è vuoto
